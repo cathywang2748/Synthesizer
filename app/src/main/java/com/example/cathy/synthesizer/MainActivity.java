@@ -208,9 +208,10 @@ public class MainActivity extends AppCompatActivity implements Button.OnClickLis
             case R.id. jingle_bells:
                 MediaPlayer[] jingleBells1 = {eNote, eNote, eNote, eNote, eNote, eNote, eNote,
                         gNote, cNote, dNote, eNote, fNote, fNote, fNote, fNote, fNote, eNote, eNote,
-                        eNote, eNote,eNote, dNote, dNote, eNote, dNote, gNote,eNote, eNote,
+                        eNote, eNote, eNote, dNote, dNote, eNote, dNote, gNote,eNote, eNote,
                         eNote, eNote, eNote, eNote, eNote, gNote, cNote, dNote, eNote, fNote,
-                        fNote, fNote, fNote, fNote, eNote, eNote, eNote, eNote};
+                        fNote, fNote, fNote, fNote, eNote, eNote, eNote, eNote, gNote, gNote, fNote,
+                        dNote, cNote};
                 int[] delayTimes = {500, 500, 1000, 500, 500, 1000, 500, 500, 750, 333, 1000, 500,
                         500, 500, 500, 500, 500, 500, 333, 500, 500, 500, 500, 500, 1000, 1000,
                         500, 500, 1000, 500, 500, 1000, 500, 500, 750, 333, 1000, 500,
